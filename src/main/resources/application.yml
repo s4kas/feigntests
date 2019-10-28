@@ -1,0 +1,11 @@
+logging.level:
+  org.springframework: DEBUG
+  com.bmp.tests.feign: DEBUG
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
